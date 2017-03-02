@@ -8,11 +8,13 @@ $('.basicpop').hide();
   {
      $('#popoutwrap').fadeIn(300);
      $('.fullpop').fadeIn(300);
+     $('body').css({'overflow':'hidden'});
   });
   $('.basicfeat').click(function()
   {
      $('#popoutwrap').fadeIn(300);
      $('.basicpop').fadeIn(300);
+     $('body').css({'overflow':'hidden'});
   });
 
   $('.popclose').click(function()
@@ -20,6 +22,7 @@ $('.basicpop').hide();
      $('.fullpop').fadeOut(300);
      $('.basicpop').fadeOut(300);
      $('#popoutwrap').fadeOut(300);
+     $('body').css({'overflow':'auto'}); 
   }); 
 
   $('.menustack').toggle(function()
@@ -34,6 +37,6 @@ $('.basicpop').hide();
     $('.menucontain').slideUp(200);
     $('.menustack').removeClass('inom-close');
     $('.menustack').addClass('inom-stack-normal-line');  
-    $('.menustack').css({'font-size':'20px'});  
+    $('.menustack').css({'font-size':'20px'}); 
   });  
 });
