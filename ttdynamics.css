@@ -1,0 +1,139 @@
+@media only screen and (max-width:700px){
+  .contentcontrol
+  {
+    width:320px;
+    margin-top:-80px;
+  }
+}
+@media only screen and (max-width:600px){
+  .navi
+  {
+    display:none;
+  }
+  .menustack
+  {
+    display:block;
+    cursor:pointer;
+  }
+  .mobnavi
+  {
+    text-decoration:none;
+    color:#fff;
+    display:block;
+    border-radius:5px;
+    margin-top:5px;
+    padding:5px;
+    font-size:13px;
+    margin:5px;
+    transition:ease-in-out .1s;
+  }
+  .mobnavi:hover
+  {
+    background-color:#362542;
+    color:#6a5672;
+  } 
+  .title
+  {
+    display:none;
+  }
+}
+/*MOBILE*/
+@media only screen and (max-device-width:650px){
+  body
+  {
+    border-radius:10px;
+  }
+  .logo1
+  {
+    background-image:url(http://i.imgur.com/XtppT9B.gif); 
+    width:170px;
+  } 
+  .title
+  {
+    display:none;
+  }
+  .navi
+  {
+    display:none;
+  }
+  .contentcontrol
+  {
+    width:320px;
+    margin-top:-80px;
+  }
+  .menustack
+  {
+    display:block;
+  }
+  .page
+  {
+    width:300px;
+  }
+  .naviint
+  {
+    text-decoration:none;
+    font-weight:bolder;
+    padding:5px;
+    border-radius:5px;
+  }
+  .mobnavi
+  {
+    text-decoration:none;
+    color:#fff;
+    display:block;
+    border-radius:5px;
+    margin-top:5px;
+    padding:5px;
+    font-size:13px;
+    margin:5px;
+    transition:ease-in-out .1s;
+  }
+  .mobnavi:focus
+  {
+    background-color:#362542;
+    color:#6a5672;
+  }  
+  #footer
+  {
+    display:none;
+  }
+  #intro
+  {
+    animation:ease introload 1s;
+    width:100%;
+  }
+  @keyframes introload{
+    0%
+    {
+      opacity:0;
+    }
+    100%
+    {
+      opacity:1;
+    }
+  }  
+}
+@media only screen and (max-device-width:320px){
+  .logo1
+  {
+    background-image:url(http://i.imgur.com/XtppT9B.gif);  
+  } 
+  #footer
+  {
+    display:none;
+  } 
+  #intro
+  {
+    animation:ease introload 1s;
+  }
+  @keyframes introload{
+    0%
+    {
+      opacity:0;
+    }
+    100%
+    {
+      opacity:1;
+    }
+  } 
+}

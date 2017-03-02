@@ -1,0 +1,274 @@
+*{padding:0px; margin:0px;}
+a, a:active, a:focus
+{
+  outline:0;
+}
+body
+{
+  background-color:#180e1e;
+}
+input
+{
+  outline:none;
+  border:0;
+}
+::selection{background:#ff7fb8;}
+::-webkit-scrollbar
+{
+  width:7px;
+  height:7px;
+}
+::-webkit-scrollbar-track
+{
+  background-color:#1a141e;
+}
+::-webkit-scrollbar-corner
+{
+  background-color:#1a141e;/*#7a7a7a*/
+}
+::-webkit-scrollbar-thumb
+{
+  background-color:#ff7fb8;/*#000*/
+}
+.logo1
+{
+  background-image:url(http://i.imgur.com/XtppT9B.gif);
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+  margin:0 auto;
+  width:190px;
+  height:190px;  
+}
+.title
+{
+  color:#fff;
+  font-size:17px; 
+  padding:0px 0px 0px 15px;
+  margin-left:5px;
+  margin-right:30px;
+  float:left;
+  line-height:51px;
+}
+#intro
+{ 
+  position:absolute; 
+  z-index:3;
+  transform:translate(-50%, -50%);  
+  top:50%;
+  left:50%; 
+}
+#navigation
+{
+  position:absolute;
+  width:100%;
+  z-index:3;
+  height:50px;
+  background-color:#25172b;
+  border-bottom:1px solid #40284c;
+}
+.socialcont
+{
+  list-style:none;
+  display:inline;
+}
+.mobcont
+{
+  list-style:none;
+}
+.menucontain
+{
+  position:absolute;
+  z-index:-1;
+  background-color:#25172b;
+  line-height:30px;
+  margin-top:50px;
+  padding-bottom:5px;
+  width:100%;
+  border-bottom:1px solid #40284c;
+  overflow:hidden;
+  display:none;
+}
+.socialnav
+{
+  float:right;
+  margin-right:20px;
+}
+.navcont
+{
+  list-style:none;
+}
+#popoutwrap
+{
+  width:100%;
+  height:100%;
+  background-color:rgba(0, 0, 0, 0.5);
+  position:absolute;
+  z-index:5;
+  overflow:auto;
+  display:none;
+}
+.page
+{
+  width:600px;
+  background-color:#211c26;
+  margin:0 auto;
+  border-radius:3px;
+  padding:5px;
+  margin-top:130px;
+  margin-bottom:50px;
+}
+.page ul
+{
+  margin-left:15px;
+  line-height:20px;
+}
+.page h3
+{
+  border-bottom:1px solid #382542;
+  padding-bottom:10px;
+  padding-top:5px;
+}
+.fullpop
+{
+  color:#6a5672;
+  font-size:13px;
+}
+.basicpop
+{
+  color:#6a5672;
+  font-size:13px;
+}
+.splitter
+{
+  border-top:1px solid #382542;
+}
+#wrapper
+{
+  user-select:none;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.navigationintro
+{
+  text-align:center;
+}
+.bgimage
+{
+  background-image:url(http://i.imgur.com/c0rRqVb.jpg);
+  background-size:cover;
+  backgroun-position:center;
+  background-repeat:no-repeat;
+  opacity:0.2;
+  -webkit-filter:blur(8px);
+  -moz-filter:blur(8px);
+  filter:blur(8px);
+  width:100%;
+  height:100%;
+  position:absolute;
+  z-index:2;
+}
+.contentcontain
+{
+  width:100%;
+  position:absolute;
+  margin-top:150px;
+  z-index:2;
+}
+.contentcontrol
+{
+   width:640px;
+   margin:0 auto;
+   padding-bottom:50px;
+   transition:ease-in-out .3s;
+}
+.itembox
+{
+  width:300px;
+  height:auto;
+  background-color:#1f1626;
+  color:#654077;
+  float:left;
+  margin:5px;
+  border-radius:3px;
+  box-shadow:0px 1px 4px rgba(0, 0, 0, 0.5);
+  padding:5px;
+  padding-bottom:15px;
+  font-size:12px;
+  border-bottom:2px solid #40284c;
+  transition:ease-in-out .5s;
+}
+.itembox h3
+{
+  margin-top:40px;
+  color:#754a87;
+}
+#page
+{
+  position:absolute; 
+  width:100%;
+}
+.info
+{
+  width:400px;
+  height:auto;
+  margin:100px auto 0 auto;
+  background-color:#1f1626; 
+  border-radius:3px;
+  box-shadow:0px 2px 2px rgba(0, 0, 0, 0.3);   
+  color:#654077;
+  padding:5px;
+  font-size:12px;
+}
+.themesplash1
+{
+  width:300px;
+  height:200px;
+  background-image:url(http://68.media.tumblr.com/204d8f9fb165c44eff4f01af9d133a06/tumblr_inline_ol6ngdfKJm1t4tnde_500.png);
+  background-size:contain;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.poslist li
+{
+  margin:10px;
+}
+textarea
+{
+  margin-top:30px;
+  background-color:#3d2f47;
+  width:400px;
+  height:200px;
+  border:none;
+  resize:none;
+  color:#5ec6ff;
+  font-size:10px;
+}
+.basic
+{
+  color:#ce5eff;
+}
+textarea:focus
+{
+  outline:none;
+}
+.tilecontrols
+{
+  list-style:none;
+  display:inline-block;
+}
+.tilecontrolcontain
+{
+  position:absolute;
+  border-bottom:1px solid #37243f;
+  padding-bottom:3px;
+  width:300px;
+}
+.tilecontrolcontain a
+{
+  text-decoration:none;
+}
+.buttonconain
+{
+  margin-left:-40px;
+}
