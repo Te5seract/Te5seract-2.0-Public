@@ -113,6 +113,16 @@
     }
   }  
 }
+@media only screen and (max-device-width:400px){ 
+  textarea
+  {
+    width:300px;
+  }
+  .info
+  {
+    width:300px;
+  }  
+}
 @media only screen and (max-device-width:320px){
   .logo1
   {
@@ -121,7 +131,7 @@
   #footer
   {
     display:none;
-  } 
+  }  
   #intro
   {
     animation:ease introload 1s;
